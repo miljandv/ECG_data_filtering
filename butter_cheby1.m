@@ -1,7 +1,7 @@
 %% Z
 clear, clc, close all;
 
-data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ekg0.mat");
+data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ecg0.mat");
 x = data.ekg;
 N = length(x);
 fs = data.fs;
@@ -92,7 +92,7 @@ ylabel('|X(jf)|[Db]');
 clear all; close all; clc; 
 
 
-data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ekg0.mat");
+data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ecg0.mat");
 x = data.ekg;
 Fs = data.fs;
 t=0:1/Fs:(length(x)-1)/Fs;
@@ -167,7 +167,7 @@ figure
 clear all; close all; clc; 
 
 
-data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ekg0.mat");
+data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ecg0.mat");
 x = data.ekg;
 Fs = data.fs;
 t=0:1/Fs:(length(x)-1)/Fs;
@@ -240,7 +240,7 @@ figure
 clear all; close all; clc; 
 
 
-data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ekg0.mat");
+data = load("C:\Users\milja\source\repos\DOSR\DOSR\data\ecg0.mat");
 x = data.ekg;
 Fs = data.fs;
 t=0:1/Fs:(length(x)-1)/Fs;
